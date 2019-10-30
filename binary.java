@@ -1,4 +1,5 @@
-public class Binary
+import java.io.*;
+class Binary
 {
     int bsearch(int arr[], int item)
     {
@@ -20,8 +21,10 @@ public class Binary
         }
         return -1;
     }
-    public static void main(String args[])
+    public static void main(String args[])throws IOException
     {
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    	System.out.println("Enter the element to search");
         Binary b = new Binary();
         int arr[]={10, 23, 35, 46, 51, 62, 73};
         int item=36;
