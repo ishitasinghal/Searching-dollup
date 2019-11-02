@@ -26,5 +26,19 @@ public class Jump
                 return -1;
             }
         }
+        if(arr[prev]==item)
+        {
+            return prev;
+        }
+        return -1;
     }
+    
+    public static void main(String args[])
+    {
+        int arr = { 2, 19, 26, 35, 39, 47, 51, 60};
+        int item = 19;
+        int index = jumpsearch(arr, item);
+        System.out.println(item+" at "+index);
+    }
+    
 }
