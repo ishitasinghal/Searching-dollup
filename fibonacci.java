@@ -22,4 +22,8 @@ class Fibos
       f1=f;
       f=f2+f1;
     }
-    
+    int offset=-1;
+    while(f>1)
+    {
+      int i = min(offset+f1, n-1);
+    if(
