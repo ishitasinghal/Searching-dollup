@@ -6,11 +6,13 @@
   
   #CODE
   
-  import java.util.*;
-class Fibos
+import java.util.*;
+public class Fibos
 {
   public static int min(int a, int b)
+  {
     return(a<=b)? a:b);
+  }
   public static int fibosearch(int arr[], int a, int n)
   {
     int f1 =0; //initializing first element of the fibonacci series
@@ -56,5 +58,3 @@ class Fibos
     System.out.println("Found at index : " + fibosearch(arr, a, n));
   }
 }
-
-  
