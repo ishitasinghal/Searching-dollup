@@ -11,7 +11,7 @@ class Fibos
 {
   public static int min(int a, int b)
     return(a<=b)? a:b);
-  public stattic int fibosearch(int arr[], int a, int n)
+  public static int fibosearch(int arr[], int a, int n)
   {
     int f1 =0; //initializing first element of the fibonacci series
     int f2 =1; //initializing second element of the fibonacci series
@@ -47,4 +47,14 @@ class Fibos
     }
     return -1;
   }
+  
+  public static void main(String args[])
+  {
+    int arr[]={2, 18, 26, 36, 46, 58, 69, 72, 85};
+    int n = 9;
+    int a=72;
+    System.out.println("Found at index : " + fibosearch(arr, a, n));
+  }
+}
+
   
