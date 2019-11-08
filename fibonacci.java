@@ -54,7 +54,7 @@ public class Fibos
   {
     int arr[]={2, 18, 26, 36, 46, 58, 69, 72, 85};
     int n = 9;
-    int a=72;
+    int a=31;
     System.out.println("Found at index : " + fibosearch(arr, a, n));
   }
 }
