@@ -5,13 +5,13 @@
   #Divides array in unequal parts.
   
   #CODE
-  
+ 
 import java.util.*;
 public class Fibos
 {
   public static int min(int a, int b)
   {
-    return(a<=b)? a:b);
+    return(a<=b)? a:b;
   }
   public static int fibosearch(int arr[], int a, int n)
   {
