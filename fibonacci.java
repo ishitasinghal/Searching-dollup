@@ -26,14 +26,14 @@ class Fibos
     while(f>1)
     {
       int i = min(offset+f1, n-1);
-    if(arr[i]<x)
+    if(arr[i]<a)
     {
       f=f1;
       f1=f2;
       f2=f-f1;
       offset = i;
     }
-      else if(arr[i]>x)
+      else if(arr[i]>a)
       {
         f=f2;
         f1=f1-f2;
@@ -41,7 +41,7 @@ class Fibos
       }
       else return i;
     }
-    if(f1==1 && arr[offset+1]==x)
+    if(f1==1 && arr[offset+1]==a)
     {
       return -1;
     }
